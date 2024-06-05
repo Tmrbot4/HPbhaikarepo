@@ -45,7 +45,7 @@ else:
     ADMINS = [int(admins) for admins in ADMINS.split()]
 
 # Channels
-INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '').split()]
+INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '-1002065082779').split()]
 if len(INDEX_CHANNELS) == 0:
     print('Info - INDEX_CHANNELS is empty')
 LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002172375991')
@@ -119,12 +119,12 @@ if len(BIN_CHANNEL) == 0:
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "")
+URL = environ.get("URL", "https://hpbhaikarepo-6f6957ee0ef8.herokuapp.com/")
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
 else:
-    if URL.startswith(('https://', 'http://')):
+    if URL.startswith(('https://hpbhaikarepo-6f6957ee0ef8.herokuapp.com/')):
         if not URL.endswith("/"):
             URL += '/'
     elif is_valid_ip(URL):
