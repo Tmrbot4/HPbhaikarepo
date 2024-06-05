@@ -75,7 +75,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/TMR_movie_request_group')
 OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/TMR_DEVELOPER")
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/TMR_update_channel')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/the_movie_rock')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/TMR_movie_request_group')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/TMR_how_to_downlod/2")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/TMR_how_to_downlod/2")
 
