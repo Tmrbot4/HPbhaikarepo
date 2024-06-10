@@ -119,12 +119,12 @@ if len(BIN_CHANNEL) == 0:
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "https://hpbhaikarepo-6f6957ee0ef8.herokuapp.com/")
+URL = environ.get("URL", "https://intimate-george-vishalbot-5423bf53.koyeb.app/")
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
 else:
-    if URL.startswith(('https://hpbhaikarepo-6f6957ee0ef8.herokuapp.com/')):
+    if URL.startswith(('https://intimate-george-vishalbot-5423bf53.koyeb.app/')):
         if not URL.endswith("/"):
             URL += '/'
     elif is_valid_ip(URL):
