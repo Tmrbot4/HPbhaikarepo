@@ -27,7 +27,7 @@ API_HASH = environ.get('API_HASH', '10331d5d712364f57ffdd23417f4513c')
 if len(API_HASH) == 0:
     print('Error - API_HASH is missing, exiting now')
     exit()
-BOT_TOKEN = environ.get('BOT_TOKEN', '7412383356:AAH-Gl2Vbcj2mg4LX6MylZJVT-EmH6ldyM0')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7412383356:AAHFVcRJcc5U79DGXodKeW4hu9UaT2OY_-o')
 if len(BOT_TOKEN) == 0:
     print('Error - BOT_TOKEN is missing, exiting now')
     exit()
@@ -64,11 +64,11 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://tmr624062:Mrsender123@cluster0.cicqnp9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://tmr624062:KsMEBUkVO09DJKbg@cluster0.gzuklxf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
-DATABASE_NAME = environ.get('DATABASE_NAME', "Mrsender")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Mybot_hpbhai")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
